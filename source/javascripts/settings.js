@@ -9,16 +9,16 @@ var MEME_SETTINGS = {
   // Font family options: set to empty array to disable font selector.
   // These options may also be formatted as {text:'Knockout', value:'"Knockout 28 B"'}.
   fontFamilyOpts: [{
-    text: 'Oswald - statesman.com',
+    text: 'Oswald -',
     value: 'Oswald'
   }, {
-    text: 'Georgia - politifact.com',
+    text: 'Georgia -',
     value: 'Georgia'
   }, {
-    text: 'Ubuntu - hookem.com',
+    text: 'Ubuntu -',
     value: 'Ubuntu'
   }, {
-    text: 'Roboto - 512tech.com',
+    text: 'Roboto -',
     value: 'Roboto'
   }],
 
@@ -82,25 +82,7 @@ var MEME_SETTINGS = {
   // NOTE: only populate the "data" attributes with base64 data when concerned about Cross-Origin requests...
   // Otherwise, just leave "data" attributes blank and allow images to load from your server.
   watermarkOpts: [
-    {text: 'Statesman', value: 'source/images/statesman.png', data: ''},
-    {text: 'MyStatesman', value: 'source/images/mystatesman.png', data: ''},
-    {text: 'Hookem.com (white)', value: 'source/images/hookem.png', data: ''},
-    {text: 'Hookem.com (color)', value: 'source/images/hookem-color.png', data: ''},
-    {text: 'Austin360', value: 'source/images/logo-austin360-white.png', data: ''},
-    {text: 'Austin360 app', value: 'source/images/austin360app.png', data: ''},
-    {text: '512tech (white)', value: 'source/images/512tech-white.png', data: ''},
-    {text: '512tech (color)', value: 'source/images/512tech.png', data: ''},
-    {text: 'Ahora Si', value: 'source/images/ahorasi.png', data: ''},
-    {text: 'PolitiFact Texas (white)', value: 'source/images/politifact-white.png', data: ''},
-    {text: 'PolitiFact Texas (color)', value: 'source/images/politifact.png', data: ''},
-    {text: 'PolitiFact Texas (truth)', value: 'source/images/politifact-truth-o-meter.png', data: ''},
-    {text: 'Austin answered', value: 'source/images/austin-answered-black.png', data: ''},
-    {text: 'Bastrop Advertiser', value: 'source/images/bastrop.png', data: ''},
-    {text: 'Lake Travis View', value: 'source/images/laketravis.png', data: ''},
-    {text: 'Pflugerville Pflag', value: 'source/images/pflugerville.png', data: ''},
-    {text: 'Round Rock Leader', value: 'source/images/roundrock.png', data: ''},
-    {text: 'Smithville Times', value: 'source/images/smithville.png', data: ''},
-    {text: 'Westlake Picayune', value: 'source/images/westlake.png', data: ''}
+    {text: 'MMC Logo', value: 'source/images/mmclogo.png', data: ''},
   ],
 
   width: 755 // Canvas rendering width.
