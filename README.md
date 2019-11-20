@@ -1,4 +1,4 @@
-# Statesman meme generator
+# Forked from Statesman's repo here https://github.com/statesman/meme --- All Credits to Original Devs - including Vox !  
 
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
@@ -13,9 +13,9 @@ To assist in development, the default Grunt task also:
 
 ![screenshot](readme.png)
 
-## Deploying
+## Deploying - Or Editing 
 
-Statesman images, fonts, etc. are currently in the app so you'll need to follow the steps below to customize the app for your use:
+ images, fonts, etc. are currently in the app so you'll need to follow the steps below to customize the app for your use:
 
 1. Add appropriate images to `source/images/`.
 2. Edit the settings file at `source/javascripts/settings.js`.
@@ -28,6 +28,8 @@ A local server should open at `http://localhost:8000/` where you can use the too
 
 We run the project through [GitHub pages](https://pages.github.com/) to allow access to the newsroom. We deploy this with `git push origin master:gh-pages`.
 
-As of May 2016, we have been merging changes only into the statesman master branch, and have not been pulling any Vox changes in. So if you work on a feature branch, **be careful with pull requests**. We merge using master as base, not Vox. - @critmcdonald
+ ## Credits Again 
+ 
+ https://github.com/statesman/meme
 
 See the original repo at https://github.com/voxmedia/meme for additional info.
