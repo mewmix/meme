@@ -1,5 +1,5 @@
 var MEME_SETTINGS = {
-  creditText: 'Photo by', // Default "credits" text.
+  creditText: 'Meme by', // Default "credits" text.
   creditSize: 12, // Font size for credit text.
   downloadName: 'share', // The name of the downloaded image file (will have a ".png" extension added).
 
@@ -76,7 +76,7 @@ var MEME_SETTINGS = {
   watermarkMaxWidthRatio: 0.25, // Maximum allowed width of watermark (percentage of total canvas width).
 
   // Path to the watermark image source, or blank for no watermark:
-  watermarkSrc: (localStorage && localStorage.getItem('meme_watermark')) || 'source/images/statesman.png',
+  watermarkSrc: (localStorage && localStorage.getItem('meme_watermark')) || 'source/images/mmclogo.png.png',
 
   // Watermark image options: set to empty array to disable watermark picker.
   // NOTE: only populate the "data" attributes with base64 data when concerned about Cross-Origin requests...
