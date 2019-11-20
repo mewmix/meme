@@ -20,6 +20,10 @@ var MEME_SETTINGS = {
   }, {
     text: 'Roboto -',
     value: 'Roboto'
+  }, {
+     text: 'Allerta Stencil',
+    value: 'Allerta Stencil'
+    
   }],
 
   // Font size of main headline:
