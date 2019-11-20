@@ -21,8 +21,8 @@ var MEME_SETTINGS = {
     text: 'Roboto -',
     value: 'Roboto'
   }, {
-     text: 'Allerta Stencil',
-    value: 'Allerta Stencil'
+     text: 'Allerta+Stencil',
+    value: 'Allerta+Stencil'
     
   }],
 
